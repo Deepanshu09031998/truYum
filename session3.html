@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+<style>
+  
+  .material-icons {
+
+ vertical-align: middle;
+  }
+  .bi:hover
+  {
+   color: red;
+  }
+</style>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand text-white" href="#">htrack</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#"> <i class="material-icons">face</i> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#">Goals</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container">
+        <div class="h1">Products </div>
+        <div class="row"> 
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h5 class="card-title">Coco Oil <small class="bg-success text-white rounded-sm">4.4<span class="material-icons">
+                        grade
+                        </span></small></h5>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="p text">Rs.200 <text class="lead small"><del>Rs.250</del> 20% <span class="material-icons" style="color: red;">
+                        error
+                        </span></text></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="p">Description</div>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="fas fa-truck"></i
+                    ><svg
+                      class="bi bi-bag-fill"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="float: right;"
+                    >
+                      <path
+                        d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <button type="button" class="btn btn-dark mt-2 float-left" onclick="alert('Item Added to Cart')">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="col-md-3 mt-3 ml-auto">
+                    <svg class="bi bi-heart float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h5 class="card-title">Coco Oil <small class=" rounded-sm" style="background-color:yellow;">3.5<span class="material-icons">
+                        grade
+                        </span></small></h5>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="p text">Rs.200 <text class="lead small"><del>Rs.250</del> 20% <span class="material-icons" style="color: red;">
+                        error
+                        </span></text></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="p">Description</div>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="fas fa-truck"></i
+                    ><svg
+                      class="bi bi-bag-fill"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="float: right;"
+                    >
+                      <path
+                        d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <button type="button" class="btn btn-dark mt-2 float-left" onclick="alert('Item Added to Cart')">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="col-md-3 mt-3 ml-auto">
+                    <svg class="bi bi-heart float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h5 class="card-title">Coco Oil <small class="rounded-sm" style="background-color:yellow;">3.5<span class="material-icons">
+                        grade
+                        </span></small></h5>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="p text">Rs.200 <text class="lead small"><del>Rs.250</del> 20% <span class="material-icons" style="color: red;">
+                        error
+                        </span></text></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="p">Description</div>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="fas fa-truck"></i
+                    ><svg
+                      class="bi bi-bag-fill"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="float: right;"
+                    >
+                      <path
+                        d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <button type="button" class="btn btn-dark mt-2 float-left" onclick="alert('Item Added to Cart')">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="col-md-3 mt-3 ml-auto">
+                    <svg class="bi bi-heart float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h5 class="card-title">Coco Oil <small class=" rounded-sm" style="background-color:red;">2.5<span class="material-icons">
+                        grade
+                        </span></small></h5>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="p text">Rs.200 <text class="lead small"><del>Rs.250</del> 20% <span class="material-icons" style="color: red;">
+                        error
+                        </span></text></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="p">Description</div>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="fas fa-truck"></i
+                    ><svg
+                      class="bi bi-bag-fill"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="float: right;"
+                    >
+                      <path
+                        d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <button type="button" class="btn btn-dark mt-2 float-left" onclick="alert('Item Added to Cart')">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="col-md-3 mt-3 ml-auto">
+                    <svg class="bi bi-heart float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h5 class="card-title">Coco Oil  <small class=" rounded-sm" style="background-color:red;">2.5<span class="material-icons">
+                        grade
+                        </span></small></h5>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="p text">Rs.200 <text class="lead small"><del>Rs.250</del> 20% <span class="material-icons" style="color: red;">
+                        error
+                        </span></text></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="p">Description</div>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="fas fa-truck"></i
+                    ><svg
+                      class="bi bi-bag-fill"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="float: right;"
+                    >
+                      <path
+                        d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <button type="button" class="btn btn-dark mt-2 float-left" onclick="alert('Item Added to Cart')">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="col-md-3 mt-3 ml-auto">
+                    <svg class="bi bi-heart float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 01.176-.17C12.72-3.042 23.333 4.867 8 15z" clip-rule="evenodd"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div> </body>
+</html>+

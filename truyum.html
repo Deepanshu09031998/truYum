@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+  .container1 {
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-position: top;
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.imag
+{
+    height: auto;
+    max-height: 500px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  padding-left: 40%;
+  width: 110%;
+  transform: translate(-50%, -50%);
+}
+.material-icons
+{
+  color: blue;
+  float: right;
+}
+
+
+
+</style>
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #ff5309;"
+    >
+    <span class="material-icons text-white">
+      local_dining
+      </span>
+      <a class="navbar-brand text-white" href="index.html">truYum</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="EditMenuItems.html"
+              >Edit Menu Items <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="Cart.html"
+              >Cart <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+   
+    <div class="container1" >
+        <div class="centered">
+            <div class="txtfield" style="text-align: left; font-size: 50px;">Find Food
+            <div class="input-group input-group-lg" >
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Find</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" size="100%" >
+              </div>
+            </div>
+        </div>
+      </div>
+ 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mt-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="card-title">Sandwich</h5>
+                </div>
+                <div class="col-md-6">
+                  <div class="p text-right text-danger">Rs.99</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="small rounded bg-success text-white">Active</label>
+                  <label class="p lead small">Main Course</label>
+                </div>
+                <div class="col-md-6">
+                  <label class="float-right rounded bg-primary text-white">Free</label>
+                  <span class="material-icons">
+                    local_shipping
+                    </span>
+                    
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="button" class="btn mt-2 float-right text-white" style="background-color: #ff5309;" onclick="alert('Item Added to Cart')">
+                    Add to Cart  
+                    <span class="material-icons text-white">
+                     local_grocery_store
+                     </span>
+                 </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="card-title">Burger</h5>
+                </div>
+                <div class="col-md-6">
+                  <div class="p text-right text-danger">Rs.99</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="small rounded bg-success text-white">Active</label>
+                  <label class="p lead small">Main Course</label>
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="button" class="btn mt-2 float-right text-white" style="background-color: #ff5309;" onclick="alert('Item Added to Cart')">
+                    Add to Cart  
+                    <span class="material-icons text-white">
+                     local_grocery_store
+                     </span>
+                 </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="card-title">Pizza</h5>
+                </div>
+                <div class="col-md-6">
+                  <div class="p text-right text-danger">Rs.99</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="small rounded bg-success text-white">Active</label>
+                  <label class="p lead small">Main Course</label>
+                </div>
+                <div class="col-md-6">
+                  <i class="fas fa-truck"></i
+                  ><svg
+                    class="bi bi-bag-fill"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="float: right;"
+                  >
+                    <path
+                      d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="button" class="btn mt-2 float-right text-white" style="background-color: #ff5309;" onclick="alert('Item Added to Cart')">
+                    Add to Cart  
+                    <span class="material-icons text-white">
+                     local_grocery_store
+                     </span>
+                 </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1484009902830-a314db11070c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="card-title">Fries</h5>
+                </div>
+                <div class="col-md-6">
+                  <div class="p text-right text-danger">Rs.99</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="small rounded bg-danger text-white">InActive</label>
+                  <label class="p lead small">Main Course</label>
+                </div>
+                <div class="col-md-6">
+                  <label class="float-right rounded bg-primary text-white">Free</label>
+                  <span class="material-icons">
+                    local_shipping
+                    </span>
+                    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="button" class="btn mt-2 float-right text-white" style="background-color: #ff5309;" onclick="alert('Item Added to Cart')">
+                    Add to Cart  
+                    <span class="material-icons text-white">
+                     local_grocery_store
+                     </span>
+                 </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="card-title">Chocolate Brownie</h5>
+                </div>
+                <div class="col-md-6">
+                  <div class="p text-right text-danger">Rs.99</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="small rounded bg-danger text-white">InActive</label>
+                  <label class="p lead small">Main Course</label>
+                </div>
+                <div class="col-md-6">
+                  <label class="float-right rounded bg-primary text-white">Free</label>
+                  <span class="material-icons">
+                    local_shipping
+                    </span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button type="button" class="btn mt-2 float-right text-white" style="background-color: #ff5309;" onclick="alert('Item Added to Cart')">
+                     Add to Cart  
+                     <span class="material-icons text-white">
+                      local_grocery_store
+                      </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="blockquote-footer text-white" style="background-color:#ff5309 ;padding-top: 2px ; padding-bottom: 2px;"><i class="fa fa-copyright" aria-hidden="true">CopyRight 2019</i></footer>
+  </body>
+</html>
